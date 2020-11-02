@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta name='viewport' content='initial-scale=1, viewport-fit=cover'>
+  <script src="https://kit.fontawesome.com/50313730dd.js" crossorigin="anonymous"></script>
+  <title>Contattaci</title>
+  <link rel="shortcut icon" href="../immagini/favicon.ico"/>
+  <link rel="shortcut icon" href="http://tutorify.it/immagini/favicon.ico"/>
+  <link rel="stylesheet" href="../css/contattaci.css">
+  <link rel="stylesheet" href="../css/animate.css">
+  <link rel="stylesheet" href="../css/footer.css">
+  <script src='//code.jquery.com/jquery-1.10.2.js'></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+  <div class="navbar" id="navbar">
+    <a href="../index.html" class="align-left" id="highlited">TUTORIFY</a>
+    <a href="../login/accedi.php" class="align-right accedi">Accedi</a>
+    <a href="#" class="align-right">Contattaci</a>
+    <a href="../index.html#notizie" class="align-right">Notizie</a>
+
+    <a href="javascript:void(0);" id="icon-responsive" class="icon" onclick="responsive()">&#9776;</a>
+  </div>
+  <div class="parte-iniziale animated fadeIn slow">
+    <div class="header__bg">
+      <p id="contattaci">Contattaci</p>
+      <p id="descrizioneTitolo">Per qualsiasi domanda o consiglio non esitare a contattarci,ti risponderemo il prima possibile</p>
+    </div>
+    
+  </div>
+  
+  <div class="contenitoreForm">
+    <div class="immagine">
+      <img src="../immagini/contattaci.svg">
+    </div>
+    <div class="formContatto">
+      <p>Scrivici</p>
+      <form action="../php/aggiungiContatto.php" method="post">
+        
+        <input type="text" name="nome" placeholder="Nome" required/><br>
+        <input type="email" name="email" placeholder="Email" required/><br>
+        <textarea name="messaggio" placeholder="Spiegaci cosa non va..." required></textarea><br>
+        <input type="submit" value="Invia" />
+      </form>
+    </div>
+
+  </div>
+  <footer class="footer-distributed">
+
+    <div class="footer-right">
+
+      <a href="#"><i class="fa fa-facebook"></i></a>
+      <a href="#"><i class="fa fa-twitter"></i></a>
+      <a href="#"><i class="fa fa-linkedin"></i></a>
+
+    </div>
+
+    <div class="footer-left">
+
+      <p class="footer-links">
+        <a class="link-1" href="../index.html">Home</a>
+
+        <a href="../privacy/privacy.html">Privacy</a>
+
+        <a href="#">Contattaci</a>
+      </p>
+
+      <p>TUTORIFY &copy; 2020</p>
+    </div>
+
+  </footer>
+  <script src="../js/responsive.js"></script>
+</body>
+
+</html>

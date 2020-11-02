@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=KoHo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Monoton&display=swap');
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  overflow: hidden;
+  width: 98%;
+  margin: auto;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: white;
+}
+
+.navbar a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 12px 14px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.align-right {
+  float: right;
+}
+
+.align-left {
+  float: left;
+}
+
+.navbar a:hover {
+  /*background-color: rgb(86, 86, 207);*/
+  color: rgb(86, 86, 207);
+}
+
+.accedi a:hover {
+  background-color: rgb(86, 86, 207);
+  color: white;
+}
+
+.navbar a.active {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.navbar .icon {
+  display: none;
+}
+
+#icon-responsive {
+  font-size: 15px;
+}
+
+.accedi {
+  border: 2px solid #FF6B6B;
+  border-radius: 5px;
+}
+#highlited{
+  font-family: 'Caveat', cursive;
+  color: rgb(86, 86, 207);
+  font-size:20px;
+}
+.parte-iniziale{
+  width: 100%;
+  height:400px;
+  overflow: hidden;
+}
+.header__bg {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(#3b4fff, #6c63ff);
+  transform: skewY(-4deg);
+  transform-origin: top left;
+  z-index: -1;
+}
+#contattaci{
+    font-size: 49px;
+    text-align: center;
+    padding-top: 140px;
+    margin-bottom: 20px;
+    margin-top: 0;
+    transform: skewY(4deg);
+    color:rgb(255, 255, 255);
+}
+
+#descrizioneTitolo{
+  text-align: center;
+  color:rgb(255, 255, 255);
+  margin-bottom: 50px;
+  transform: skewY(4deg);
+}
+.contenitorePrivacy{
+  width: 90%;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 80px;
+  margin-top: 130px;
+  
+}
+.immagine{
+  width: 50%;
+  float:right;
+  height: 100%;
+}
+.immagine img{
+  max-width: 90%;
+}
+.contenutoPrivacy{
+  width: 45%;
+  float: left;
+  height: 100%;
+}
+.contenutoPrivacy #titoloSezione{
+  text-align: center;
+  font-size:35px;
+  color: #FF6B6B;
+}
+.contenitorePrivacy p{
+    text-align: left;
+}
+
+@media screen and (max-width: 830px) {
+  .immagine{
+    display: none;
+  }
+  .contenutoPrivacy{
+    width: 100%;
+    float:none;
+  }
+}
+@media screen and (max-width: 630px) {
+    .navbar a:not(:first-child) {
+      display: none;
+    }
+    .navbar a.icon {
+      float: right;
+      display: block;
+    }
+    .navbar.responsive .icon {
+      position: relative;
+      left: 0;
+      bottom: 0;
+      float: right;
+    }
+    .navbar.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }

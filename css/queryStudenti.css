@@ -1,0 +1,308 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Teko&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+.wrapper-pagina{
+    min-height: 100vh;
+    position: relative;
+}
+#query{
+    text-align: center;
+    font-size: 24px;
+}
+#query span{
+    color:rgb(86, 86, 207);
+}
+
+.contenitore-profili {
+    height: auto;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: 'Raleway';
+}
+
+.contenitore-errore {
+    height: auto;
+    width: 45%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    font-family: 'Raleway';
+    text-align: center;
+}
+#titolo{
+    color: rgb(86, 86, 207);
+}
+
+.contenitore-errore p {
+    font-size: 25px;
+    margin-bottom: 40px;
+    color: rgb(86, 86, 207);
+    
+}
+.erroreScritta{
+    color:red;
+}
+
+.contenitore-errore img {
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 40px;
+}
+
+.contenitore-errore a {
+    text-decoration: none;
+}
+
+.contenitore-errore a:hover {
+    text-decoration: underline;
+}
+
+.profilo {
+    width: 600px;
+    height: 240px;
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    -webkit-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+    overflow: hidden;
+}
+
+
+.intestazione {
+    width: 70%;
+    height: 100%;
+    float: right;
+    margin-top: 20px;
+}
+
+.immagine {
+    width: 140px;
+    height: 140px;
+    margin-top: 3%;
+    float: left;
+    margin-left: 2%;
+}
+
+.immagine img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+
+.intestazione #nome {
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    color:black;
+    margin-bottom: 0;
+}
+#nome:hover{
+    text-decoration: underline;
+    color:rgb(86, 86, 207);
+}
+
+p i {
+    color: #FF6B6B;
+}
+p b{
+    color: #FF6B6B;
+}
+
+#comune {
+    color: grey;
+}
+
+.navigazione {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50px;
+    
+}
+
+.lista-pagine {
+    display: inline-block;
+    height:50px;
+}
+
+.lista-pagine a {
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.lista-pagine b {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.lista-pagine a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.freccie-speciali {
+    background-color: #FF6B6B;
+    color: white;
+    border: 1px solid white;
+}
+
+
+@media screen and (max-width: 780px) {
+    .contenitore-errore {
+        height: auto;
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        font-family: 'Raleway';
+        text-align: center;
+    }
+    
+    .contenitore-errore p {
+        font-size: 30px;
+        margin-bottom: 40px;
+        color: rgb(86, 86, 207);
+    }
+    
+    .contenitore-errore img {
+        max-width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+}
+@media screen and (max-width: 780px) {
+    .contenitore-errore {
+        height: auto;
+        width:90%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 100px;
+        margin-bottom: 100px;
+        font-family: 'Raleway';
+        text-align: center;
+    }
+    
+ 
+    
+}
+@media screen and (max-width: 680px) {
+    .profilo {
+        width: 500px;
+        height: 240px;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        -webkit-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+        
+    }
+    .immagine {
+        width: 100px;
+        height: 100px;
+        margin-top: 3%;
+        float: left;
+        margin-left: 2%;
+    }
+    
+    
+}
+@media screen and (max-width: 550px) {
+    #query{
+        text-align: center;
+        font-size: 20px;
+        margin-top: 30px;
+    }
+    .profilo {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 40px;
+        padding-bottom: 20px;
+        -webkit-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+    }
+    .intestazione {
+        width: 100%;
+        height: 100%;
+        float: none;
+    }
+    
+    .immagine {
+        width: 130px;
+        height: 130px;
+        float: none;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .immagine img {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+        margin-top: 10px;
+    }
+    
+    .intestazione #nome {
+        font-weight: bold;
+        font-size: 25px;
+        margin-bottom: 0;
+        text-align: center;
+        display: block;
+    }
+    p{
+        text-align: center;
+    }
+    
+    p i {
+        color: #FF6B6B;
+        text-align: center;
+    }
+    
+    #comune {
+        color: grey;
+        text-align: center;
+    }
+    ul{
+        text-align: left;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        width: 70%;
+    }
+    .lista-pagine {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 200px;
+        height: 50px;
+    }
+    
+}

@@ -1,0 +1,822 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Teko&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Raleway&display=swap');
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+}
+.contenitore {
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+}
+
+.profilo-header {
+  width: 100%;
+  height: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  -webkit-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+}
+.header-lungo{
+  height: 600px;
+}
+
+.profilo-header-banner {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 340px;
+  overflow: hidden;
+}
+.profilo-header-banner img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background-repeat: no-repeat
+}
+
+.profilo-header-foto {
+  width: 150px;
+  height: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  margin-top: -100px;
+  z-index: +1;
+  border: 1px solid white;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  position: relative;
+  object-fit: contain;
+  -webkit-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+}
+#telefonoScritta{
+  font-size:24px;
+}
+#telefonoScritta i{
+  font-size:24px;
+  color: rgb(86, 86, 207);
+}
+#telefonoScritta span{
+  font-size:24px;
+  color: rgb(86, 86, 207);
+}
+#oppure{
+  color:rgb(86, 86, 207);
+  font-size: 18px;
+}
+
+.nome {
+  text-align: center;
+  font-size: 38px;
+  margin-top: 20px;
+  font-family: 'Raleway';
+  margin-bottom: 0px;
+  color: black;
+}
+
+.luogo {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 5px;
+  font-family: 'Raleway';
+  color: rgb(160, 159, 159);
+}
+
+.risultati {
+  width: 30%;
+  border: 1px solid black;
+  height: 90px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgb(192, 201, 192);
+  overflow-y: scroll;
+  z-index: +1000;
+  border-radius: 5px;
+}
+
+.inlinea {
+  width: 45%;
+  margin-bottom: 40px;
+  height: 30px;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid white;
+  color: white;
+}
+
+ul {
+  cursor: pointer;
+}
+
+li {
+  color: black;
+  list-style: none;
+}
+li:hover{
+  text-decoration: underline;
+}
+
+
+#modifica {
+  text-align: center;
+  padding-top: 5px;
+  text-decoration: underline;
+  cursor: pointer;
+  width: 90px;
+  margin-left: auto;
+  display: block;
+  color: blue;
+  margin-right: auto;
+}
+
+#modifica:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.bio-descrizione {
+  width: 100%;
+  height: 400px;
+  margin-top: 50px;
+}
+
+.bio {
+  width: 35%;
+  float: left;
+  height: 300px;
+  font-family: 'Raleway';
+  padding-top: 40px;
+  padding-left: 20px;
+  padding-bottom: 40px;
+  border-radius: 20px;
+  font-size: 24px;
+  color: black;
+  -webkit-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+}
+
+.table-bio {
+  padding: 0;
+  height: 100%;
+  width: 90%;
+  border: none;
+  margin-left: auto;
+  margin-right: auto;
+}
+.nomeInfo{
+  text-align: left;
+}
+.table-bio tr td b {
+  color: rgb(86, 86, 207);
+  font-style: bold;
+}
+.table-bio tr{
+  border-bottom: 1px solid black;
+}
+.table-bio tr td {
+  border: none;
+  height: 30px;
+  padding: 0;
+ 
+}
+
+.descrizione {
+  width: 55%;
+  color: black;
+  float: right;
+  height: 340px;
+  padding: 20px;
+  border-radius: 20px;
+  overflow-y: scroll;
+  -webkit-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+}
+
+.descrizione h1 {
+  color: rgb(86, 86, 207);
+  font-size: 44px;
+  font-family: 'Raleway';
+}
+
+.descrizione p {
+  font-size: 20px;
+  font-family: 'Raleway';
+  margin-top: 30px;
+  text-align: left;
+}
+
+.materie-valutazione {
+  width: 100%;
+  height: 440px;
+  margin-top: 50px;
+  margin-bottom:30px;
+}
+
+#nessuna_materia {
+  font-size: 24px;
+  margin-top: 80px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+#nessuna_descrizione{
+  font-size: 24px;
+  margin-top: 80px;
+  text-align: center;
+  color: rgb(0, 0, 0);
+}
+.materie-utente {
+  width: 55%;
+  height: 400px;
+  float: right;
+  border-radius: 20px;
+  padding: 20px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+}
+.materie-utente h1{
+  color: rgb(86, 86, 207);
+  font-size: 44px;
+  font-family: 'Raleway';
+}
+.materie-utente ol {
+  list-style-type: none;
+  list-style-type: decimal;
+  margin: 0;
+  margin-left: 1em;
+  padding-top: 20px;
+  padding-left:0;
+  counter-reset: li-counter;
+  }
+  .materie-utente ol li{
+  position: relative;
+  margin-bottom: 1.5em;
+  padding: 0.5em;
+  padding-left: 58px;
+  background-color: rgba(255,107,107,0.9);
+  
+  }
+  
+  .materie-utente p{
+  text-decoration:none;
+  color:white;
+  font-size:15px;
+  font-family: 'Raleway', sans-serif;
+  }
+  
+  .materie-utente li:hover{
+  box-shadow:inset -1em 0 rgb(86, 86, 207);
+  -webkit-transition: box-shadow 0.5s; 
+  transition: box-shadow 0.5s;
+  }
+  
+  .materie-utente ol li:before {
+  position: absolute;
+  top: -0.3em;
+  left: -0.5em;
+  width: 1.8em;
+  height: 1.2em;
+  font-size: 2em;
+  line-height: 1.2;
+  font-weight: bold;
+  text-align: center;
+  color: white;
+  background-color:rgb(86, 86, 207);
+  transform: rotate(-20deg);
+  -ms-transform: rotate(-20deg);
+  -webkit-transform: rotate(-20deg);
+  z-index: 99;
+  overflow: hidden;
+  content: counter(li-counter);
+  counter-increment: li-counter;
+  }
+.valutazione {
+  width: 35%;
+  float: left;
+  height: 400px;
+  font-family: 'Raleway';
+  overflow-y: scroll;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  font-size: 24px;
+  color: black;
+  -webkit-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+}
+.descrizioneRecensione{
+  font-size: 18px;
+}
+.valutazione h1 {
+  font-size: 44px;
+  text-align: center;
+  color: rgb(86, 86, 207);
+}
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: +100; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+  
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  text-align: center;
+  width: 30%; 
+  border-radius: 20px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.pulsanteRecensione{
+  background-color: #FF6B6B;
+  color: #FEF9FF;
+  padding: 14px 35px;
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  border:none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 30px;
+  cursor: pointer;
+  margin-bottom:50px;
+}
+.pulsanteRecensione:hover{
+  background-color:rgb(86, 86, 207);
+}
+#scrittaValuta{
+  font-size:44px;
+  color:rgb(86, 86, 207);
+}
+.slidecontainer {
+  width: 100%;
+}
+
+.slider {
+  -webkit-appearance: none;
+  width: 90%;
+  height: 25px;
+  background: #d3d3d3;
+  outline: none;
+  opacity: 0.7;
+  border-radius: 20px;
+  -webkit-transition: .2s;
+  transition: opacity .2s;
+}
+
+.slider:hover {
+  opacity: 1;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background: rgb(86, 86, 207);
+  cursor: pointer;
+}
+
+.slider::-moz-range-thumb {
+  width: 25px;
+  height: 25px;
+  background: rgb(86, 86, 207);
+  cursor: pointer;
+}
+
+#descrizioneRecensione{
+  width:90%;
+  height: 100px;
+}
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  opacity: 1;
+  width:40%;
+  left: 0;
+  right:0;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 30px;
+  transition: opacity 0.6s;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  display: none;
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, .2);
+
+}
+
+.alert.success {background-color: #4CAF50;}
+.alert.warning {background-color: #ff9800;}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.closebtn:hover {
+  color: black;
+}
+.recensione-utente{
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  height: auto;
+  padding-bottom: 10px;
+}
+.recensione-utente:after
+{
+  content:".";
+  display:block;
+  clear:both;
+  visibility:hidden;
+  }
+.foto-utente-recensione{
+  width:100%;
+  float:none;
+}
+.foto-utente-recensione img{
+  width:139px;
+  height: 139px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  border-radius: 50%;
+}
+.informazioni-recensione{
+  width: 100%;
+  margin-top: 10px;
+}
+.nomeCognomeRecensione{
+  text-decoration: none;
+  color:black;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
+.eliminaRecensione{
+  font-size: 18px;
+  color:#FF6B6B;
+  cursor: pointer;
+}
+.eliminaRecensione:hover{
+  text-decoration: underline;
+}
+.media{
+  margin-bottom: 50px;
+  height: 220px;
+}
+#scroll{
+  width:90%;
+  height: 170px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-bottom: -50px;
+}
+
+#mediaScritta{
+  text-decoration: none;
+  color:black;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  text-align: center;
+}
+.informazioni-recensione a:hover{
+  text-decoration: underline;
+  color:rgb(86, 86, 207);
+}
+.descrizione-valutazione{
+  width:90%;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+.data-valutazione{
+  color:grey;
+  font-size: 15px;
+  margin-top: 5px;
+  margin-bottom:5px;
+  text-align: center;
+}
+.valutazione-stelle{
+  margin-left: auto;
+  margin-right: auto;
+}
+.stelle{
+  width: 120px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.valutazione-stelle i{
+  color:orange;
+}
+.modifica-materie {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  height: auto;
+  font-family: 'Raleway';
+  padding-top: 20px;
+  margin-top: 50px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  font-size: 24px;
+  margin-bottom: 50px;
+  color: black;
+  -webkit-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+}
+
+.modifica-materie h1 {
+  font-size: 34px;
+  text-align: left;
+  margin-left: 20px;
+  color: rgb(86, 86, 207);
+}
+.tabellaRichiesteMaterie, td, th {
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.tabellaRichiesteMaterie {
+  border-collapse: collapse;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+  margin-top: 30px;
+}
+
+.tabellaRichiesteMaterie th, td {
+  padding:20px;
+  width:33%;
+  font-size: 22px;
+}
+
+.nomeMateriaRichiesta{
+  color:#FF6B6B;
+}
+
+.tabellaRichiesteMaterie td p:hover {
+  text-decoration: underline;
+}
+.noRichiesteAttive{
+  margin: 20px;
+
+}
+
+@media screen and (max-width: 1000px){
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    text-align: center;
+    width: 80%; 
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 890px) {
+  .contenitore {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    margin-top: 50px;
+  }
+  .profilo-header {
+    width: 100%;
+    height: 450px;
+    border-radius: 0px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+  }
+  .profilo-header-banner {
+    width: 100%;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 210px;
+    border-radius: 0px 0px 0px 0px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+  }
+  .profilo-header-foto {
+    width: 130px;
+    height: 130px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    margin-top: -80px;
+    z-index: +1;
+    border: 1px solid white;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    -webkit-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+  }
+  .bio-descrizione {
+    width: 100%;
+    height: auto;
+    margin-top: 50px;
+  }
+  .bio {
+    width: 100%;
+    box-sizing: border-box;
+    float: none;
+    height: 330px;
+    padding:10px;
+    font-family: 'Raleway';
+    border-radius: 0px;
+    margin-top: 50px;
+    font-size: 20px;
+    color: black;
+    -webkit-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+  }
+  .descrizione {
+    width: 100%;
+    color: black;
+    box-sizing: border-box;
+    float: none;
+    height: 300px;
+    border-radius: 0px;
+    padding: 20px;
+    margin-top: 50px;
+    -webkit-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+  }
+  .descrizione textarea{
+    border-radius: 0px;
+    width: 90%;
+  }
+  .materie-valutazione {
+    height: auto;
+  }
+  .materie-utente {
+    border-radius: 0px;
+  }
+  .materie-utente {
+    width: 100%;
+    height: 400px;
+    float: none;
+    box-sizing: border-box;
+    border-radius: 0px;
+    padding: 30px;
+    margin-top: 50px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    white-space: nowrap;
+    cursor: grab;
+    cursor: -o-grab;
+    cursor: -moz-grab;
+    cursor: -webkit-grab;
+    -webkit-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+  }
+  .alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    opacity: 1;
+    width:80%;
+    left: 0;
+    position: absolute;
+    top: 30px;
+    right:0;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    margin-right:auto;
+    margin-left: auto;
+    display: none;
+  
+  }
+  .valutazione {
+    width: 100%;
+    float: none;
+    height: 400px;
+    font-family: 'Raleway';
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-radius: 0px;
+    font-size: 24px;
+    box-sizing: border-box;
+    color: black;
+    -webkit-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+  }
+  .valutazione h1 {
+    font-size: 32px;
+  }
+  .modifica-materie{
+    border-radius: 0;
+  }
+  
+}
+@media screen and (max-width: 600px) {
+  #scrittaValuta{
+    font-size:34px;
+    color:rgb(86, 86, 207);
+    font-weight: bold;
+  }
+  #telefonoScritta{
+    font-size:18px;
+  }
+  #telefonoScritta i{
+    font-size:18px;
+    color: rgb(86, 86, 207);
+  }
+  #telefonoScritta span{
+    font-size:18px;
+    color: rgb(86, 86, 207);
+  }
+  .table-bio{
+    font-size: 18px;
+  }
+  .descrizione h1{
+    font-size: 30px;
+  }
+  .descrizione p{
+    font-size: 17px;
+  }
+  .valutazione{
+    height:360px;
+  }
+  .modifica-materie h1{
+    font-size: 30px;
+  }
+  .tabellaRichiesteMaterie th, td {
+    padding:10px;
+    width:33%;
+    font-size: 15px;
+  }
+  
+
+}

@@ -1,0 +1,296 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+@import url('https://fonts.googleapis.com/css?family=KoHo&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fira+Sans+Extra+Condensed&display=swap');
+@import url('//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+body, html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  font-family: 'Quicksand', sans-serif;
+}
+.isa_error {
+  padding:12px;
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  color: #D8000C;
+  background-color: #FFD2D2;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 30px;
+  font-family: 'Quicksand', sans-serif;
+  }
+
+.isa_error i {
+    font-size:15px;
+    text-align: left;
+}
+.isa_error p{
+  position: relative;
+  top: -40px;
+  right: 20px;
+  float:right;
+}
+strong{
+  font-size: 25px;
+}
+.container-login {
+  width: 99%;
+  height: auto;
+  padding-top: 100px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom: 50px;
+}
+
+.parte-login {
+  width: 600px;
+  height: 830px;
+  background-image: linear-gradient(#3b4fff, #6c63ff);
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 30px;
+  padding-top: 40px;
+  padding-bottom: 30px;
+  box-shadow: 10px 20px 31px #aaaaaa;
+}
+
+.parte-login h2 {
+  text-align: center;
+  margin: 0;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 34px;
+}
+
+form {
+  width: 90%;
+  margin-top: 80px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  color:white;
+}
+#nome{
+  margin-right: 9%;
+  padding: 0;
+}
+
+#email{
+  width: 100%;
+  display:inline-block;
+  margin-bottom: 40px;
+  height: 30px;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid white;
+  color: white;
+}
+#telefono{
+  width: 100%;
+  display:inline-block;
+  margin-bottom: 40px;
+  height: 30px;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid white;
+  color: white;
+}
+#datanascita{
+  width: 100%;
+  display:inline-block;
+  margin-bottom: 40px;
+  height: 30px;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid white;
+  color: white;
+}
+#comune{
+  width: 100%;
+  display:inline-block;
+  margin-bottom: 40px;
+  height: 30px;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid white;
+  color: white;
+  padding:0px;
+}
+#password{
+  margin-right: 9%;
+}
+
+#listaComuni{
+width: 100%;
+height: 90px;
+margin-left: auto;
+margin-right: auto;
+background-color: white;
+overflow-y: scroll;
+z-index: +1000;
+border-radius: 5px;
+}
+.inlinea{
+  width: 45%;
+  margin-bottom: 40px;
+  height: 30px;
+  border: none;
+  padding:0;
+  background: transparent;
+  border-bottom: 1px solid white;
+  color: white;
+}
+ul{
+  cursor: pointer;
+}
+li{
+  padding-bottom: 14px;
+  font-family: 'Quicksand', sans-serif;
+  color: black;
+  list-style: none;
+
+}
+
+a {
+  color: white;
+  text-align: center;
+  display: block;
+  margin-top: 30px;
+  text-decoration: underline;
+  font-family: 'Quicksand', sans-serif;
+}
+
+#dati-dimenticati {
+  color: black;
+  text-align: center;
+  display: block;
+  margin-top: 35px;
+  text-decoration: underline;
+  line-height: 4px;
+  font-family: 'Quicksand', sans-serif;
+  font-size: 15px;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+::placeholder {
+  color: white;
+  opacity: 1;
+  font-family: 'Quicksand', sans-serif;
+}
+#checkDati{
+  margin-bottom: 40px;
+  font-family: 'Quicksand', sans-serif;
+}
+input[type=submit] {
+  border: 1px solid white;
+  border-radius: 20px;
+  width: 40%;
+  margin-left: auto;
+  margin-right: auto;
+  display:block;
+  height: 40px;
+  background-color: transparent;
+  color:white;
+}
+
+input[type=submit]:hover {
+  color: black;
+  background-color: white;
+}
+
+input[type=submit]:focus {
+  background: transparent;
+}
+
+
+@media screen and (max-width: 520px) {
+  .container-login {
+    width: 100%;
+    height: 100vh;
+    padding-top: 0px;
+    padding-bottom: 40px;
+  }
+  .isa_error {
+    padding-bottom:10px;
+    width: 100%;
+    color: #D8000C;
+    background-color: #FFD2D2;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 0px;
+    font-family: 'Quicksand', sans-serif;
+    }
+    .isa_error p{
+      position: relative;
+      top: -40px;
+      right: 40px;
+      float:right;
+    }
+  .parte-login {
+    width: 100%;
+    height: auto;
+    background-color:white;
+    border-radius: 0px;
+  }
+  form {
+    width: 90%;
+    margin-top: 80px;
+    margin-left:auto;
+    margin-right:auto;
+    height: auto;
+  }
+  .inlinea{
+    width: 100%;
+    margin-bottom: 40px;
+    height: 30px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: black;
+    margin-left:auto;
+    padding:0;
+    margin-right:auto;
+  }
+  #email{
+    width: 100%;
+    display:inline-block;
+    margin-bottom: 40px;
+    height: 30px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: black;
+  }
+  #datanascita{
+    width: 100%;
+    display:inline-block;
+    margin-bottom: 40px;
+    height: 30px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: white;
+  }
+  #comune{
+    width: 100%;
+    display:block;
+    margin-bottom: 40px;
+    height: 30px;
+    border: none;
+    background: transparent;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    color: black;
+    padding:0px;
+  }
+  #password{
+    margin-right:0%;
+  }
+  #nome{
+    margin-right:0%;
+  }
+
+}

@@ -1,0 +1,195 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    overflow-x: hidden;
+}
+
+.ricercaRichiesteConMateria {
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.listaMaterie {
+    width: 60%;
+    height: auto;
+    font-size: 14px;
+    padding: 11px;
+    border-radius: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 0.5px solid rgb(56, 56, 56);
+    outline: none;
+}
+
+.cercaMateria {
+    background-color: #FF6B6B;
+    color: #FEF9FF;
+    height: 40px;
+    width: 30%;
+    text-align: center;
+    font-size: 15px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    padding-top: 0px;
+}
+.cercaMateria:hover{
+    background-color:rgb(86, 86, 207);
+}
+
+.recensione-utente {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    height: auto;
+    border-radius: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    -webkit-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+}
+
+.recensione-utente:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+}
+
+.foto-utente-recensione {
+    width: 100%;
+    float: none;
+}
+
+.foto-utente-recensione img {
+    width: 140px;
+    height: 140px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    border-radius: 50%;
+}
+
+.informazioni-recensione {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.nomeCognomeRecensione {
+    text-decoration: none;
+    color: black;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.informazioni-recensione a:hover {
+    text-decoration: underline;
+    color: rgb(86, 86, 207);
+}
+
+#comune {
+    text-align: center;
+}
+
+.descrizione-valutazione {
+    width: 90%;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+#materiaRichiesta {
+    text-align: center;
+}
+
+.data-valutazione {
+    color: grey;
+    font-size: 15px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.navigazione {
+    width: 350px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 30px;
+}
+
+.lista-pagine {
+    width: 100%;
+    display: inline-block;
+}
+
+.lista-pagine a {
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+
+.lista-pagine b {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+.lista-pagine a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.freccie-speciali {
+    background-color: #FF6B6B;
+    color: white;
+    border: 1px solid white;
+}
+
+
+@media screen and (max-width: 800px) {
+    .recensione-utente {
+        width: 70%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        height: auto;
+        border-radius: 10px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        -webkit-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .recensione-utente {
+        width: 98%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        height: auto;
+        border-radius: 10px;
+        padding-bottom: 10px;
+        padding-top: 10px;
+        -webkit-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+        -moz-box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+        box-shadow: 0px 6px 11px 0px rgba(0, 0, 0, 0.75);
+    }
+    #query {
+        text-align: center;
+        font-size: 20px;
+    }
+    .descrizioneRecensione {
+        font-size: 18px;
+    }
+}

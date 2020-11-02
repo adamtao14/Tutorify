@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');
+body{
+    margin:0px;
+}
+.contenitore{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 70px;
+    margin-bottom: 50px;
+    width: 650px;
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 20px 11px 10px #aaaaaa;
+    background-image: linear-gradient(#3b4fff, #6c63ff);
+}
+.contenitore img{
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    display: block;
+}
+h2{
+  text-align: center;
+    font-size: 54px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    font-family: 'Quicksand', sans-serif;  
+    color:white;
+}
+span{
+    font-weight: bold;
+color: black;
+}
+.contenitore p{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    color:white;
+}
+a{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color:black;
+}
+
+@media screen and (max-width: 760px){
+    .contenitore{
+    margin-top: 70px;
+    width: 500px;
+    height: auto;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 5px 20px 11px 10px #aaaaaa;
+    background-image: linear-gradient(#3b4fff, #6c63ff);
+}
+.contenitore img{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    display: block;
+}
+h2{
+  text-align: center;
+    font-size: 54px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    font-family: 'Quicksand', sans-serif;  
+    color:white;
+}
+span{
+    font-weight: bold;
+   color: black;
+}
+.contenitore p{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    color:white;
+}
+}
+@media screen and (max-width: 570px){
+    .contenitore{
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 100%;
+    padding: 20px;
+    border-radius: 0px;
+    box-shadow: none;
+    background-image: linear-gradient(#3b4fff, #6c63ff);
+}
+.contenitore img{
+    max-width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    display: block;
+}
+h2{
+  text-align: center;
+    font-size: 54px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    font-family: 'Quicksand', sans-serif;  
+    color:white;
+}
+span{
+    font-weight: bold;
+   color: black;
+}
+.contenitore p{
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Quicksand', sans-serif;
+    color:white;
+}
+}
+@media screen and (max-width: 400px){
+    .contenitore{
+    width: 100%;
+    margin-top: 0px;
+    margin-left: 0px;
+    margin-right: 0px;
+    height: 100vh;
+    padding-left: 0px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+    padding-top: 30px;
+    border-radius: 0px;
+    background-image: linear-gradient(#3b4fff, #6c63ff);
+}
+.contenitore img{
+    max-width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 40px;
+    display: block;
+}
+h2{
+  text-align: center;
+    font-size: 40px;
+    margin-top: 0px;
+    margin-bottom: 90px;
+    font-family: 'Quicksand', sans-serif;  
+    color:white;
+}
+span{
+    font-weight: bold;
+   color: black;
+}
+.contenitore p{
+
+    text-align: center;
+    font-size: 18px;
+    font-family: 'Quicksand', sans-serif;
+    color:white;
+}
+
+}

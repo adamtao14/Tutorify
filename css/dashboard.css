@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,300,700');
+body{
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  overflow-y: scroll;
+}
+.ricerca{
+  margin-top: 50px;
+  width:100%;
+  /*border:1px solid black;*/
+  height:520px;
+  margin-bottom: 20px;
+  padding-top: 40px;
+    
+}
+.ricerca_destra{
+  float:right;
+  width: 40%;
+  margin-right: 40px;
+}
+.ricerca img{
+  max-width: 100%;
+  display:block;
+  
+}
+.ricerca_sinistra{
+  float:left;
+  width: 45%;
+  margin-left: 40px;
+
+}
+.ricerca_sinistra p{
+
+  text-align: center;
+  font-size: 40px;
+  margin-top: 70px;
+  color:rgb(86, 86, 207);
+  /*font-family: 'Comfortaa', cursive;*/
+
+}
+.seleziona{
+  width:49%;
+  height:auto;
+  font-size:24px;
+  padding:10px;
+  border-radius:0px;
+  margin-left: auto;
+  margin-right: auto;
+  border:0.5px solid rgb(56, 56, 56);
+  outline: none;
+}
+.seleziona:focus{
+  outline: none;
+}
+.cerca-pulsante{
+  background-color: #FF6B6B;
+  color: #FEF9FF;
+  padding: 14px 35px;
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  border:none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 30px;
+  cursor: pointer;
+}
+.cerca-pulsante:hover{
+  background-color:rgb(86, 86, 207);
+}
+.alert {
+  padding: 20px;
+  background-color: #f44336;
+  color: white;
+  opacity: 1;
+  width:40%;
+  left: 0;
+  right:0;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  top: 30px;
+  transition: opacity 0.6s;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  display: none;
+  box-shadow: 0 4px 4px -2px rgba(0, 0, 0, .2);
+
+}
+
+.alert.success {background-color: #4CAF50;}
+.alert.warning {background-color: #ff9800;}
+
+.closebtn {
+  margin-left: 15px;
+  color: white;
+  font-weight: bold;
+  float: right;
+  font-size: 22px;
+  line-height: 20px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+#svgDiSotto{
+  margin-top: -5px;
+}
+.closebtn:hover {
+  color: black;
+}
+.header__bg_destra{
+  position: relative;
+  top: 120px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  background-image: linear-gradient(#ffffff, #bb4242);
+  transform: skewY(-3deg);
+  transform-origin: top left;
+  z-index: -1;
+}
+.header__bg_sinistra{
+  position: relative;
+  top: 120px;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  height: 90%;
+  background-image: linear-gradient(#dfe1f2, #6c63ff);
+  transform: skewY(3deg);
+  transform-origin: top right;
+  z-index: -1;
+}
+.separatore{
+  width: 100%;
+  height: 180px;
+  overflow: hidden;
+}
+.separatore p{
+  font-size: 34px;
+  color:white;
+  text-align: center;
+}
+
+.sezione-richieste{
+  width:90%;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.richieste{
+  width:40%;
+  height:330px;
+  margin-top: 100px;
+  float: right;
+  margin-bottom: 50px;
+}
+#ultime-richieste{
+  text-align: center;
+  font-size: 44px;
+  color: rgb(86, 86, 207);
+}
+hr{
+  width: 70%;
+}
+
+.richiesta-immagine{
+  width:40%;
+  float:left;
+  margin-top: 100px;
+  height: 330px;
+}
+.richiesta-immagine img{
+  max-width: 100%;
+}
+.modal {
+  display: none; 
+  position: fixed; 
+  z-index: +100; 
+  left: 0;
+  top: 0;
+  width: 100%; 
+  height: 100%; 
+  overflow: auto; 
+  background-color: rgb(0,0,0); 
+  background-color: rgba(0,0,0,0.4); 
+  
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; 
+  padding: 20px;
+  border: 1px solid #888;
+  text-align: center;
+  width: 30%; 
+  border-radius: 20px;
+}
+
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.pulsanteRecensione{
+  background-color: #FF6B6B;
+  color: #FEF9FF;
+  padding: 14px 35px;
+  text-align: center;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 5px;
+  border:none;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  margin-top: 30px;
+  cursor: pointer;
+  margin-bottom:50px;
+}
+.pulsanteRecensione:hover{
+  background-color:rgb(86, 86, 207);
+}
+#scrittaValuta{
+  font-size:44px;
+  color:rgb(86, 86, 207);
+}
+
+.selezionaRichiesta{
+  width:90%;
+  height:auto;
+  font-size:24px;
+  padding:10px;
+  border-radius:10px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  outline: none;
+}
+#descrizioneRichiesta{
+  width:90%;
+  height: 100px;
+}
+#descrizioneRecensione{
+  width:90%;
+  height: 100px;
+}
+#spiegazione{
+  text-align: center;
+  margin-bottom: 5px;
+  color:rgb(86, 86, 207);
+}
+
+@media screen and (max-width: 1135px) {
+  #ultime-richieste{
+    font-size: 35px;
+  }
+}
+@media screen and (max-width: 860px) {
+  .ricerca{
+    height: 430px;
+  }
+  .ricerca_sinistra p{
+
+    text-align: center;
+    font-size: 35px;
+    margin-top: 30px;
+  
+  }
+  #ultime-richieste{
+    font-size: 25px;
+  }
+  .alert {
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    opacity: 1;
+    width:90%;
+    left: 0;
+    position: absolute;
+    top: 30px;
+    right:0;
+    transition: opacity 0.6s;
+    margin-bottom: 15px;
+    border-radius: 20px;
+    margin-right:auto;
+    margin-left: auto;
+    display: none;
+    font-size: 10px;
+  
+  }
+  .modal-content {
+    background-color: #fefefe;
+    margin: 15% auto; 
+    padding: 20px;
+    border: 1px solid #888;
+    text-align: center;
+    width: 80%; 
+    border-radius: 20px;
+  }
+  #scrittaValuta{
+    font-size:34px;
+    color:rgb(86, 86, 207);
+  }
+}
+@media screen and (max-width: 710px) {
+  .ricerca_sinistra p{
+
+    text-align: center;
+    font-size: 40px;
+    margin-top: 30px;
+  
+  }
+  .ricerca_destra{
+    display: none;
+  }
+  .ricerca_sinistra{
+    float:none;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  
+  }
+  path{
+    height:400px;
+  }
+  .richieste{
+    width: 100%;
+    float: none;
+  }
+  .richiesta-immagine{
+    display: none;
+  }
+  
+}
+
+@media screen and (max-width:450px){
+  .seleziona{
+    width:100%;
+    height:auto;
+    font-size:24px;
+    padding:10px;
+    margin-bottom: 20px;
+    -webkit-appearance:menulist;
+    background-color:rgb(255, 255, 255);
+  }
+  .ricerca{
+    height:450px;
+  }
+  .sezione-richieste{
+    height: 300px;
+  }
+}
